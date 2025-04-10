@@ -1,2 +1,2 @@
-# Foto-raf-D-zenleyici
+# Fotograf-Duzenleyici
 Fotoğraf Kırpma,Döndürme,Size Ayarlama Uygulaması 
