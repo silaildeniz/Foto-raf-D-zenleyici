@@ -1,0 +1,107 @@
+/* Genel Sayfa Stili */
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Arka plan gradient */
+  color: #fff;
+  margin: 0;
+}
+
+/* Konteyner */
+.container {
+  background: rgba(255, 255, 255, 0.1); /* Hafif transparan arka plan */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(10px); /* Blur efekti */
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Başlık */
+h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Dosya Yükleme */
+input[type="file"] {
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+/* Kontrol Alanları */
+.controls {
+  margin-top: 15px;
+}
+
+.controls div {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Kutuları */
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-left: 10px;
+}
+
+/* Buton */
+button {
+  background: #ff7b00; /* Turuncu buton */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Buton Hover Efekti */
+button:hover {
+  background: #ff9f40; /* Daha açık turuncu */
+}
+
+/* Görüntü Önizleme */
+.imagePreview img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+}
